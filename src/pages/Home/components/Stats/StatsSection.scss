@@ -1,0 +1,42 @@
+.stats {
+  margin-top: -70px;
+  z-index: 10;
+  position: relative;
+  padding: 0 120px;
+  @media screen and (max-width: 1000px) {
+    padding: 0 60px;
+    //do Smth
+  }
+  @media screen and (max-width: 600px) {
+    padding: 0 20px;
+    //do Smth
+  }
+  @media screen and (max-width: 1000px) {
+    margin-top: 0px;
+    //do Smth
+  }
+  .counter {
+    background-color: var(--bg-secondary-color);
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    padding: 40px 20px;
+    border-radius: 6px;
+    text-align: center;
+    span.fa {
+      font-size: 26px;
+      border-radius: 50%;
+      width: 68px;
+      height: 68px;
+      line-height: 68px;
+      color: #fff;
+      text-align: center;
+    }
+    .value {
+      font-size: 2.6em;
+      font-weight: 600;
+      color: var(--heading-color);
+    }
+    .desc {
+      color: var(--subheading-color);
+    }
+  }
+}

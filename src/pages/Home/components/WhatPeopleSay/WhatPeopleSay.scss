@@ -1,0 +1,64 @@
+.what-people-say {
+  .container {
+    .titles {
+      h6 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 1px;
+        color: #ff6600;
+        display: block;
+        font-family: "Pacifico", cursive;
+      }
+      h3 {
+        font-size: 32px !important;
+        line-height: 40px;
+        color: var(--heading-color);
+      }
+    }
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+      background: #ff6600;
+    }
+
+    .owl-carousel.owl-drag .owl-item {
+      .item {
+        .content {
+          max-width: 700px;
+          margin: 0 auto;
+          img {
+            width: 85px;
+            height: 85px;
+            overflow: hidden;
+            border-radius: 50%;
+            display: block;
+            margin: auto;
+            margin-bottom: 20px;
+          }
+          .icon {
+            font-size: 22px;
+            color: #ff6600;
+            display: block;
+          }
+          blockquote {
+            q {
+              font-size: 24px;
+              line-height: 36px;
+              color: var(--heading-color);
+              font-weight: 600;
+            }
+          }
+          p {
+            font-size: 18px;
+            line-height: 28px;
+            color: var(--subheading-color);
+            font-family: "Quicksand", sans-serif;
+          }
+          h3 {
+            color: var(--heading-color);
+          }
+        }
+      }
+    }
+  }
+}
